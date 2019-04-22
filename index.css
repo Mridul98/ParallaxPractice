@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2{
+    font-size: 5rem;
+    padding:8px 24px;
+    background: white;
+    opacity: 0.5;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100%;
+    height:100vh;
+}
+div:nth-child(1){
+  background-image: url(./Screenshot\ \(25\).png);
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+
+  image-orientation: 2turn;
+
+   
+    
+
+}
+div:nth-child(2){
+  background-image: url(./Screenshot\ \(11\).png);
+  height: 100vh;
+  
+  background-attachment: fixed;
+  
+
+    
+    
+}
